@@ -96,6 +96,12 @@
     <Compile Include="FrmVacanta.Designer.cs">
       <DependentUpon>FrmVacanta.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmVacanteleMele.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVacanteleMele.Designer.cs">
+      <DependentUpon>FrmVacanteleMele.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FrmAdaugaAdmin.resx">
@@ -112,6 +118,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmVacanta.resx">
       <DependentUpon>FrmVacanta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVacanteleMele.resx">
+      <DependentUpon>FrmVacanteleMele.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

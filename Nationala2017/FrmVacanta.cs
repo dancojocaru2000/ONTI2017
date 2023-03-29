@@ -138,5 +138,10 @@ namespace Nationala2017 {
                 InsertInDatabaseFromFile();
             };
         }
+
+        private void vacanteleMeleToolStripMenuItem_Click(object sender, EventArgs e) {
+            var form = new FrmVacanteleMele(User);
+            form.Show();
+        }
     }
 }

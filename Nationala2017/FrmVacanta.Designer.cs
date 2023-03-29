@@ -91,6 +91,7 @@
             this.vacanteleMeleToolStripMenuItem.Name = "vacanteleMeleToolStripMenuItem";
             this.vacanteleMeleToolStripMenuItem.Size = new System.Drawing.Size(145, 29);
             this.vacanteleMeleToolStripMenuItem.Text = "Vacantele Mele";
+            this.vacanteleMeleToolStripMenuItem.Click += new System.EventHandler(this.vacanteleMeleToolStripMenuItem_Click);
             // 
             // emailToolStripMenuItem
             // 
