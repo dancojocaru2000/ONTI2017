@@ -84,6 +84,7 @@
             this.adaugaVacanteNoiToolStripMenuItem.Name = "adaugaVacanteNoiToolStripMenuItem";
             this.adaugaVacanteNoiToolStripMenuItem.Size = new System.Drawing.Size(275, 34);
             this.adaugaVacanteNoiToolStripMenuItem.Text = "Adauga Vacante Noi";
+            this.adaugaVacanteNoiToolStripMenuItem.Click += new System.EventHandler(this.adaugaVacanteNoiToolStripMenuItem_Click);
             // 
             // vacanteleMeleToolStripMenuItem
             // 

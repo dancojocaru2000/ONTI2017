@@ -1,8 +1,10 @@
-﻿using System;
+﻿using Nationala2017.DataSetTurismDBTableAdapters;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
+using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Linq;
@@ -118,6 +120,23 @@ namespace Nationala2017 {
 
         private void adaugaAdminNouToolStripMenuItem_Click(object sender, EventArgs e) {
             new FrmAdaugaAdmin().Show();
+        }
+
+        private void adaugaVacanteNoiToolStripMenuItem_Click(object sender, EventArgs e) {
+            var process = Process.Start("notepad.exe", "Resurse/Vacante.txt");
+            process.EnableRaisingEvents = true;
+            process.Exited += (sdr, args) => {
+                var rezervariTableAdapter = new RezervariTableAdapter();
+                var rdata = rezervariTableAdapter.GetData();
+                rdata.Clear();
+                rezervariTableAdapter.Update(rdata);
+
+                var vdata = vacanteTableAdapter.GetData();
+                vdata.Clear();
+                vacanteTableAdapter.Update(vdata);
+
+                InsertInDatabaseFromFile();
+            };
         }
     }
 }
