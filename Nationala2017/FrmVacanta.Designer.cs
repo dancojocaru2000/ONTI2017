@@ -77,6 +77,7 @@
             this.adaugaAdminNouToolStripMenuItem.Name = "adaugaAdminNouToolStripMenuItem";
             this.adaugaAdminNouToolStripMenuItem.Size = new System.Drawing.Size(275, 34);
             this.adaugaAdminNouToolStripMenuItem.Text = "Adauga Admin Nou";
+            this.adaugaAdminNouToolStripMenuItem.Click += new System.EventHandler(this.adaugaAdminNouToolStripMenuItem_Click);
             // 
             // adaugaVacanteNoiToolStripMenuItem
             // 

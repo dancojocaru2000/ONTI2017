@@ -34,6 +34,11 @@ namespace Nationala2017 {
         }
 
         private void FrmVacanta_Load(object sender, EventArgs e) {
+            InsertInDatabaseFromFile();
+            RefreshSlideshow();
+        }
+
+        private void InsertInDatabaseFromFile() {
             // Incarcam in baza de date vacantele din fisierul text
             var linii = File.ReadAllLines("Resurse/Vacante.txt");
             var imaginiVacante = Directory.EnumerateFiles("Resurse/Imagini");
@@ -59,7 +64,6 @@ namespace Nationala2017 {
                 }
             }
             Vacante = vacanteTableAdapter.GetData();
-            RefreshSlideshow();
         }
 
         private void RefreshSlideshow() {
@@ -110,6 +114,10 @@ namespace Nationala2017 {
         private void reserveButton_Click(object sender, EventArgs e) {
             var formRezervare = new FrmRezervare(User, Vacante[Index]);
             formRezervare.ShowDialog();
+        }
+
+        private void adaugaAdminNouToolStripMenuItem_Click(object sender, EventArgs e) {
+            new FrmAdaugaAdmin().Show();
         }
     }
 }
