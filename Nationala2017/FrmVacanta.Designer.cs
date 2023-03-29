@@ -212,6 +212,7 @@
             this.reserveButton.TabIndex = 9;
             this.reserveButton.Text = "Rezerva Acum";
             this.reserveButton.UseVisualStyleBackColor = true;
+            this.reserveButton.Click += new System.EventHandler(this.reserveButton_Click);
             // 
             // posterButton
             // 

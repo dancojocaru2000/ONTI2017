@@ -78,6 +78,12 @@
     <Compile Include="FrmInregistrare.Designer.cs">
       <DependentUpon>FrmInregistrare.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmRezervare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRezervare.Designer.cs">
+      <DependentUpon>FrmRezervare.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmVacanta.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -91,6 +97,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmInregistrare.resx">
       <DependentUpon>FrmInregistrare.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRezervare.resx">
+      <DependentUpon>FrmRezervare.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmVacanta.resx">
       <DependentUpon>FrmVacanta.cs</DependentUpon>

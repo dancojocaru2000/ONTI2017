@@ -106,5 +106,10 @@ namespace Nationala2017 {
         private void autoplayTimer_Tick(object sender, EventArgs e) {
             NextSlide();
         }
+
+        private void reserveButton_Click(object sender, EventArgs e) {
+            var formRezervare = new FrmRezervare(User, Vacante[Index]);
+            formRezervare.ShowDialog();
+        }
     }
 }
