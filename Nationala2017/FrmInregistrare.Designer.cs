@@ -57,7 +57,7 @@
             // 
             // passwordTextBox
             // 
-            this.passwordTextBox.Location = new System.Drawing.Point(157, 330);
+            this.passwordTextBox.Location = new System.Drawing.Point(157, 326);
             this.passwordTextBox.Name = "passwordTextBox";
             this.passwordTextBox.Size = new System.Drawing.Size(295, 26);
             this.passwordTextBox.TabIndex = 4;
@@ -66,7 +66,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 333);
+            this.label2.Location = new System.Drawing.Point(12, 329);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(58, 20);
             this.label2.TabIndex = 7;
@@ -74,7 +74,7 @@
             // 
             // emailTextBox
             // 
-            this.emailTextBox.Location = new System.Drawing.Point(157, 298);
+            this.emailTextBox.Location = new System.Drawing.Point(157, 294);
             this.emailTextBox.Name = "emailTextBox";
             this.emailTextBox.Size = new System.Drawing.Size(295, 26);
             this.emailTextBox.TabIndex = 3;
@@ -82,7 +82,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 301);
+            this.label1.Location = new System.Drawing.Point(12, 297);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(52, 20);
             this.label1.TabIndex = 5;
@@ -122,7 +122,7 @@
             // 
             // confirmPasswordTextBox
             // 
-            this.confirmPasswordTextBox.Location = new System.Drawing.Point(157, 362);
+            this.confirmPasswordTextBox.Location = new System.Drawing.Point(157, 358);
             this.confirmPasswordTextBox.Name = "confirmPasswordTextBox";
             this.confirmPasswordTextBox.Size = new System.Drawing.Size(295, 26);
             this.confirmPasswordTextBox.TabIndex = 5;
@@ -131,7 +131,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(12, 365);
+            this.label5.Location = new System.Drawing.Point(12, 361);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(139, 20);
             this.label5.TabIndex = 13;
@@ -139,7 +139,7 @@
             // 
             // captchaTextBox
             // 
-            this.captchaTextBox.Location = new System.Drawing.Point(157, 502);
+            this.captchaTextBox.Location = new System.Drawing.Point(157, 498);
             this.captchaTextBox.Name = "captchaTextBox";
             this.captchaTextBox.Size = new System.Drawing.Size(295, 26);
             this.captchaTextBox.TabIndex = 6;
@@ -148,7 +148,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(12, 505);
+            this.label6.Location = new System.Drawing.Point(12, 501);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(73, 20);
             this.label6.TabIndex = 15;
@@ -156,7 +156,7 @@
             // 
             // captchaPictureBox
             // 
-            this.captchaPictureBox.Location = new System.Drawing.Point(157, 394);
+            this.captchaPictureBox.Location = new System.Drawing.Point(157, 390);
             this.captchaPictureBox.Name = "captchaPictureBox";
             this.captchaPictureBox.Size = new System.Drawing.Size(295, 102);
             this.captchaPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;

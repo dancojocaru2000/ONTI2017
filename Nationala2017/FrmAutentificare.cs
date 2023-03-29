@@ -48,8 +48,15 @@ namespace Nationala2017 {
                 settings.Save();
             }
 
-            // TODO: Deschide aplicatia
-            MessageBox.Show("Succes!");
+            emailTextBox.Text = "";
+            passwordTextBox.Text = "";
+
+            var formVacanta = new FrmVacanta(gasit);
+            formVacanta.Show();
+            this.Hide();
+            formVacanta.FormClosed += (sdr, args) => {
+                this.Show();
+            };
         }
 
         private void registerButton_Click(object sender, EventArgs e) {
